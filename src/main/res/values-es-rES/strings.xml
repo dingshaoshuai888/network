@@ -1,0 +1,11 @@
+<resources>
+    <string name="warn_net_disconnect">red desconectada</string>
+    <string name="warn_net_exception">anomalía de red</string>
+    <string name="network_is_exception">Network is error, please check the network</string>
+    <string name="warn_request_timeout">tiempo de espera agotado</string>
+    <string name="warn_data_parse_failed">análisis de datos fallido</string>
+</resources>
+
+
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_is_exception">Network is error, please check the network</string>
+    <string name="warn_net_disconnect">mạng bị ngắt kết nối</string>
+    <string name="warn_net_exception">Mạng bất thường</string>
+    <string name="warn_request_timeout">Hết thời gian yêu cầu </string>
+    <string name="warn_data_parse_failed">không thể phân tích dữ liệu</string>
+</resources>
+

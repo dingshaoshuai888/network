@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_is_exception">網絡錯誤，請檢查網絡</string>
+    <string name="warn_net_disconnect">網絡連接斷開</string>
+    <string name="warn_net_exception">網絡异常</string>
+    <string name="warn_request_timeout">請求超時</string>
+    <string name="warn_data_parse_failed">數據解析失敗</string>
+</resources>

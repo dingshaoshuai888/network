@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+apply from: "../config_gradle/common.gradle"
+
+def config = rootProject.ext
+
+dependencies {
+    api config.dependencies["retrofit2"]
+    api config.dependencies["okhttp3"]
+    api config.dependencies["retrofit2_converter-gson"]
+    api config.dependencies["retrofit2_adapter-rxjava2"]
+    api config.dependencies["rxlifecycle2_rxlifecycle-components"]
+    api config.dependencies["rxjava2"]
+    api config.dependencies["kotlinx-coroutines-android"]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="warn_net_disconnect">Network disconnected</string>
+    <string name="warn_net_exception">Network abnormal</string>
+    <string name="network_is_exception">Network is error, please check the network</string>
+    <string name="warn_request_timeout">Request timeout</string>
+    <string name="warn_data_parse_failed">Failed to parse data</string>
+</resources>
+

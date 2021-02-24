@@ -1,0 +1,51 @@
+ext {
+    app_debug = [
+            versionCode : 2,
+            versionName : "1.1.1",
+            appName     : "以钛箱_debug",
+            appId       : "com.yitaixiang.app.debug",
+            FileProvider: "com.yitaixiang.app.debug.FileProvider"
+    ]
+    app_dev = [
+            versionCode : 2,
+            versionName : "1.1.1",
+            appName     : "以钛箱_dev",
+            appId       : "com.yitaixiang.app.dev",
+            FileProvider: "com.yitaixiang.app.dev.FileProvider"
+    ]
+    app_prod = [
+            versionCode : 7,
+            versionName : "1.6",
+            appName     : "以钛箱",
+            appId       : "com.yitaixiang.app.prod",
+            FileProvider: "com.yitaixiang.app.prod.FileProvider"
+    ]
+
+    change_debug = [
+            APP_CODE     : "64D6KBDTKP",
+            BASE_URL     : "http://192.168.3.209:3001/relay/",
+            CHAIN_ID     : "mainchain",
+            TEST_LOG_TAG : "box_test",
+            ERROR_LOG_TAG: "box_error",
+            HTTP_LOG_TAG : "box_okhttp",
+    ]
+
+    change_dev = [
+            APP_CODE     : "J9RPCTZJRG",
+            BASE_URL     : "http://192.168.3.209/relay/",
+            CHAIN_ID     : "testnet",
+            TEST_LOG_TAG : "box_test",
+            ERROR_LOG_TAG: "box_error",
+            HTTP_LOG_TAG : "box_okhttp",
+    ]
+
+    change_prod = [
+            APP_CODE     : "J9RPCTZJRG",
+            BASE_URL     : "http://192.168.3.209/relay/",
+            CHAIN_ID     : "testnet",
+            TEST_LOG_TAG : "box_test",
+            ERROR_LOG_TAG: "box_error",
+            HTTP_LOG_TAG : "box_okhttp",
+    ]
+
+}
